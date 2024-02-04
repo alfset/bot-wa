@@ -20,13 +20,12 @@ client.on('ready', () => {
 client.initialize();
 
 const websitesToCheck = [
-    'https://physica.finance',
-    'https://app.physica.finance',
-    'https://planq-rpc.physica.finance'
+    '{website to check},
+     '{website to check}
     // Add more websites as needed
 ];
 
-const whatsappNumber = 'whatsapp:+6281901262817'; // Include country code
+const whatsappNumber = 'whatsapp:{Number to sennd}'; // Include country code
 
 async function checkWebsiteStatusAndNotify() {
     for (const websiteUrl of websitesToCheck) {
